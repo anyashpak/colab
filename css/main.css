@@ -7,12 +7,6 @@ html{
     box-sizing: inherit; 
 }
 
-body {
-    font-family: 'TT_Commons_medium';
-    font-style: normal; 
-    margin: 0 auto;
-}
-
 @font-face{
     font-family:"TT_Commons_semi_bold";
     src: url('/fonts/TT_Commons_semi_bold.ttf') format("truetype"); 
@@ -27,6 +21,11 @@ body {
     src: url('/fonts/TT_Commons_medium.ttf') format("truetype");
 }
 
+body {
+    font-family: 'TT_Commons_medium';
+    font-style: normal; 
+    margin: 0 auto;
+}
 
 
 .wrapper {
