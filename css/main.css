@@ -19,7 +19,7 @@ html{
     font-family:"TT_Commons_medium";
     font-style: normal;
     font-weight: 500;
-    src: url('/fonts/TT_Commons_medium.ttf') format("truetype");
+    src: url('../fonts/TT_Commons_medium.ttf') format("truetype");
 }
 
 body {
