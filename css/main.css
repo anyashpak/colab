@@ -7,11 +7,12 @@ html{
     box-sizing: inherit; 
 }
 
-@font-face{
-    font-family:"TT_Commons_semi_bold";
-    src: url('/fonts/TT_Commons_semi_bold.ttf') format("truetype"); 
-    font-style: normal;
-    font-weight: 600;
+
+@font-face{ 
+    font-family:"TT_Commons_semi_bold"; 
+    src: url('../fonts/TT_Commons_semi_bold.ttf') format("truetype");  
+    font-style: bold;  
+    font-weight: 600; 
 }
 
 @font-face { 
