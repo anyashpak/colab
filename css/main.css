@@ -26,6 +26,7 @@ body {
     font-family: 'TT_Commons_medium';
     font-style: normal; 
     margin: 0 auto;
+    height: fit-content;
 }
 
 
@@ -33,6 +34,7 @@ body {
     display: block;
     height: fit-content;
 }
+
 
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
@@ -363,13 +365,90 @@ body {
 
 
 /* ИНТЕРАКТИВНЫЙ БЛОК */
+
+.thirdblock {
+display: flex;
+justify-content: flex-start;
+}
+
 .interactive {
-    width: 97.4vw;
+    width: 47.9vw;
     height: 50vw;
     border-radius: 10px;
-    background: #E86229;
+    background: #FFF;
     margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
 }
+
+.row1, .row2, .row3, .row4 {
+    background-color: #E86229;
+    height: 50vw;
+    width: 11.5vw;
+    border-radius: 10px;
+    padding: 0%;
+    animation-name: forows;
+}
+
+.rowimg1 {
+    animation-delay: 0.5s;
+}
+
+.rowimg2 {
+    animation-delay: 1.5s;
+}
+
+.rowimg3 {
+    animation-delay: 2s;
+}
+.rowimg4 {
+    animation-delay: 1s;
+}
+
+.rowimg1, .rowimg2, .rowimg3, .rowimg4 {
+    width: 100%;
+    padding-top: 1000%;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: rows;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rows {
+    from { padding-top: 1000%; }
+    50% { padding-top: 0%; }
+    to {padding-top: 1000%;}
+}
+
+
+.interactive2 {
+    width: 49vw;
+    height: 50vw;
+    border-radius: 10px;
+    background: #EFEFEF;
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+
+.round-scale {
+    border-radius: 100%;
+    background-color: #E86229;
+    width: 40%;
+    height: 40%;
+    transition: all 2s;
+}
+
+.round-scale:hover {
+    width: 80%;
+    height: 80%;
+}
+
 
 .circle {
     height: 50px;
@@ -380,7 +459,7 @@ body {
     top: 0;
     left: 0;
     pointer-events: none;
-    z-index: 99999999; /* so that it stays on top of all other elements */
+    z-index: 99999999;
   }
 
   

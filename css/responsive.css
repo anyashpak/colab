@@ -36,6 +36,9 @@
 
 /* TABLET */
 @media screen and (max-width: 834px) {
+    .circle {
+        display: none;
+    }
     .ticker1 {
         display: none;
     }
@@ -103,11 +106,15 @@
     .ticker3 {
         margin-top: 0px;
     }
-    .interactive {
-        display: none;
-    }
     .ticker4 {
-        display: none;
+        margin-top: 0px;
+    }
+
+    .interactive {
+        margin: 5px;
+    }
+    .interactive2 {
+        margin-top: 5px;
     }
 
     .roundsss {
@@ -130,6 +137,28 @@
 
 /* Mobile */
 @media screen and (max-width: 360px) {
+    .circle {
+        display: none;
+    }
+    .interactive2 {
+        display: none;
+    }
+
+    .interactive{
+        width: 96vw;
+        border-radius: 5px;
+    }
+
+    .ticker4 {
+        display: none;
+    }
+
+    .row1, .row2, .row3, .row4 {
+        height: 50vw;
+        width: 22.55vw;
+        border-radius: 5px;
+    }
+
     .hide1 {
         display: block;
     }
