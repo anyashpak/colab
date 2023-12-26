@@ -27,12 +27,14 @@ body {
     font-style: normal; 
     margin: 0 auto;
     height: fit-content;
+    justify-content: center;
 }
 
 
 .wrapper {
     display: block;
     height: fit-content;
+    justify-content: center;
 }
 
 
